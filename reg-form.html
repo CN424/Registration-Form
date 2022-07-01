@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-18">
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="reg-style.css">
+</head>
+
+<div>
+
+    <div class="registration-form">
+        <h1>Registration Form</h1>
+    </div>
+
+    <div class="direction">
+        <p>Please fill out this form with the required information</p>
+    </div>
+
+    <div class="section1">
+
+        <div class="fname">
+            <p>Enter Your First Name:</p>
+            <input type="text" id="firstname" required></input>
+        </div>
+
+        <div class="lname">
+            <p>Enter Your Last Name:</p>
+            <input type="text" id="lastname" required>
+        </div>
+
+        <div class="email">
+            <p>Enter Your Email:</p>
+            <input type="email" id="e-mail" required></input>
+        </div>
+
+        <div class="pass">
+            <p>Create a New Password:</p>
+            <input type="password" id="password" required></input>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div class="section2">
+
+        <div class="account-type">
+
+            <input type="radio" required>
+            <p class="personal">Personal Account</p>
+
+            <br>
+
+            <input type="radio">
+            <p class="business">Business Account</p>
+
+            <br>
+
+            <input type="checkbox">
+            <p class="agreement">I agree the <u>terms and conditions</u></p>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div class="section3">
+
+        <div class="profile-pic">
+            <input type="file">
+        </div>
+
+        <div class="age">
+            <p>Input your age(years): </p>
+            <input type="text">
+        </div>
+
+        <div class="select">
+            <p>How did you hear about us?</p>
+            <select class="Select">
+                <option>(select one)</option>
+                <option>freeCodeCamp News</option>
+                <option>freeCodeCamp Youtube Channel</option>
+                <option>freeCodeCamp Forum</option>
+                <option>Others</option>
+            </select>
+        </div>
+
+        <div class="bio">
+            <p>Provide a bio:</p>
+            <textarea>I like coding on the beach..</textarea>
+        </div>
+
+    </div>
+
+    <div class="submit">
+        <input type="submit" value="Submit">
+    </div>
+    </body>
+
+</html>
